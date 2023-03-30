@@ -4,7 +4,7 @@ const {getMeal,saveMeal}=require ('./MealController')
 
 
 router.get('/',getMeal);
-router.get('/saveMeal',saveMeal);
+router.post('/saveMeal',saveMeal);
 
 
 module.exports=router;
